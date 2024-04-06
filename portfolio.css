@@ -1,0 +1,915 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin-right: 0%;
+}
+body {
+  
+  background-color: #c29835;
+  overflow: scroll;
+  scrollbar-width: 0;
+  /* background-position: right top; */
+}
+.container {
+  height: 60px;
+  width: 100%;
+  background-color: olive;
+  display: flex;
+}
+.left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  justify-content: space-between;
+}
+a:hover {
+  font-size: 25px;
+  color: rgb(2, 24, 24);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+a {
+  color: rgb(22, 6, 14);
+  transition: 2s;
+  padding: 25px;
+}
+#home {
+  background-image: url(../assets/bgimg.jpg);
+  position: sticky;
+  overflow: scroll;
+  background-size: fixed;
+  height: 100vh;
+  width: auto;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  /* margin-top: 30vh; */
+  padding-left: 15vh;
+  /* background-image: url(../assets/bgimg.jpg);
+  background-size: 1000px; */
+}
+#home h1 {
+  font-size: 60px;
+  text-decoration: dashed;
+  color: rgb(5, 33, 33);
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 40vh;
+  left: -100vh;
+  animation: mymove 5s infinite;
+  animation-delay: 2s;
+}
+@keyframes mymove {
+  form {
+    left: -100vh;
+    color: black;
+  }
+  to {
+    left: 10vh;
+    color: rgb(100, 100, 220);
+  }
+}
+#home h3 {
+  font-size: 40px;
+  color: rgb(76, 44, 103);
+  position: absolute;
+  top: 50vh;
+  left: 10vh;
+}
+.home-img {
+  
+  width: 40%;
+  position: absolute;
+  top: 9vh;
+  right: 1vh;
+  justify-content: center;
+  z-index: -1;
+}
+
+#about h2 {
+  position: absolute;
+  top: 110vh;
+  color: whitesmoke;
+  text-align: center;
+}
+#skills h2 {
+  position: absolute;
+  top: 220vh;
+  color: rgb(247, 238, 238);
+}
+#home p {
+  position: absolute;
+  top: 350px;
+  left: 80px;
+  max-width: 50%;
+  font-size: 25px;
+  /* border-bottom: 1px dotted;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; */
+  color: rgb(174, 107, 188);
+  float: left;
+  width: 35%;
+}
+#about h2 {
+  margin-left: 45%;
+}
+#about p {
+  color: rgb(1, 11, 27);
+  text-shadow: #121212;
+  position: relative;
+  top: 0px;
+  text-align: center;
+}
+
+.cf {
+  background-color: #a9ab7a;
+  position: relative;
+  top: 60px;
+  border: 2px solid whitesmoke;
+  width: 350px;
+  height: 300px;
+  box-shadow: 2px 9px 4px 3px white;
+}
+.hh {
+  display: flex;
+}
+.base {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+#about .ed {
+  position: relative;
+  top: 60px;
+  left: 25vh;
+  color: aliceblue;
+}
+#about .pr {
+  position: relative;
+  top: 65px;
+  left: 60vh;
+  color: aliceblue;
+}
+#about .cir {
+  position: relative;
+  top: 65px;
+  left: 100vh;
+  color: aliceblue;
+}
+
+.ee {
+  color: aliceblue;
+}
+.ee strong {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* #skills{
+  background-image: url(../assets/download\ bg.jpeg);
+} */
+#skills h2 {
+  position: absolute;
+  top: 190vh;
+  color: rgb(247, 238, 238);
+  margin-left: 45%;
+}
+.skillbox {
+  background-color: #989a58;
+  border: 5px solid white;
+  width: 70%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 30vh;
+  justify-content: center;
+
+  /* left: 70px; */
+  border-radius: 5px 5px 5px 5px;
+  color: azure;
+}
+.skillbox:hover{
+  height: 41vh;
+  width: 75%;
+  border: #a9ab7a;
+  box-shadow: 2px 2px 5px 7px #a9ab7a;
+}
+.ss {
+  color: aliceblue;
+}
+.row-o {
+  display: flex;
+  justify-content: space-around;
+}
+.row-two {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 30px;
+}
+.row-three {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.percent {
+  border: 2px solid white;
+  width: 400px;
+  height: 10px;
+}
+.pp {
+  border: 1px solid white;
+  width: 350px;
+  height: 6px;
+  background-color: aliceblue;
+}
+.ps {
+  border: 1px white;
+  width: 300px;
+  height: 6px;
+  background-color: aliceblue;
+}
+.pj {
+  border: 1px white;
+  width: 200px;
+  height: 6px;
+  background-color: aliceblue;
+}
+.resume-content h2 {
+  position: relative;
+  top: 40vh;
+  color: rgb(247, 238, 238);
+  margin-left: 45%;
+}
+.myresume {
+  position: relative;
+  top: 50vh;
+  display: flex;
+  justify-content: center;
+}
+.downloadcv {
+  height: 300px;
+  width: 450px;
+  position: relative;
+  top: 60vh;
+  
+  display: flex;
+  justify-content: center;
+  /* left: 60vh; */
+  /* border: 3px solid blue; */
+  /* box-shadow: 1px 2px 2px 2px blue; */
+}
+#contact {
+  border: 2px solid black;
+  background-color: black;
+  width: 100%;
+  height: 70vh;
+  color: aliceblue;
+  position: relative;
+  top: 50vh;
+  /* left: 45%; */
+}
+.contactme{
+  border: solid #121212;
+  width: 90%;
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+}
+input[type="text"]{
+  height: 50px;
+  color: aliceblue;
+  background-color: rgb(49, 49, 93);
+}
+input[type="email"]{
+  height: 30px;
+  background-color: rgb(58, 58, 92);
+  color: aliceblue;
+}
+input[type=button]{
+  height: 35px;
+  width: 100px;
+  background-color: rgb(177, 177, 248);
+}
+#contact h1 {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  justify-content: space-around;
+  color: rgb(22, 113, 192);
+}
+.quick {
+  color: rgb(33, 108, 174);
+}
+@media screen and (min-width: 0px) and (max-width: 520px) {
+  .container {
+    width: 100%;
+  }
+  body{
+    background-color: #66552f;
+  }
+  .home-img {
+    width: 100%;
+  }
+  .left {
+    position: absolute;
+    top: 0px;
+    /* left: 80px; */
+  }
+  .left h3 {
+    text-align: center;
+  }
+  .right {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    justify-content: space-between;
+  }
+  a {
+    font-size: 13px;
+    color: rgb(22, 6, 14);
+    transition: 2s;
+    padding: 1px;
+  }
+  a:hover {
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: rgb(4, 15, 15);
+  }
+  #home h1 {
+    font-size: 15px;
+    text-decoration: dashed;
+    color: rgb(5, 33, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 30vh;
+    left: -100vh;
+    animation: mymove 5s infinite;
+    animation-delay: 2s;
+  }
+  #home{
+
+  }
+  #home h3 {
+    font-size: 15px;
+    color: rgb(15, 2, 26);
+    position: absolute;
+    top: 35vh;
+    left: 10vh;
+  }
+  #home p {
+    display: none;
+  }
+  #about {
+
+  }
+  #about p {
+    color: rgb(141, 165, 195);
+    position: relative;
+    top: 40px;
+  }
+  #about .ed {
+    position: relative;
+    top: 60px;
+    left: 12vh;
+    color: aliceblue;
+  }
+  #about .pr {
+    position: relative;
+    top: 550px;
+    left: 3px;
+    color: aliceblue;
+  }
+  #about .cir {
+    position: relative;
+    top: 1040px;
+    left: -15vh;
+    color: aliceblue;
+  }
+
+  .base {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    align-items: center;
+    justify-content: center;
+  }
+  .cf {
+    position: relative;
+    top: 60px;
+    border: 2px solid whitesmoke;
+    width: 200px;
+    height: 400px;
+    box-shadow: 2px 9px 4px 3px white;
+  }
+
+  #skills h2 {
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    color: rgb(247, 238, 238);
+    /* margin-left: 45%; */
+  }
+  .skillbox {
+    border: 5px solid white;
+    width: 80%;
+    height: 60vh;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+  }
+  .percent{
+    width: 120px;
+  }
+  .cf{
+    background-color: rgb(50, 76, 107);
+  }
+  .pp{
+    width: 40px;
+  }
+  .ps{
+    width: 20px;
+  }
+  .pj{
+    width: 25px;
+  }
+  .ss{
+    width: 30px;
+  }
+  .row-o  {
+    margin-left: 20%;
+    display: flex !important;
+    flex-direction: column;
+    
+  }
+  .row-two .skill-three{
+     position: relative;
+     left: -30px;
+  }
+  .row-three{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+  }
+  .myresume iframe{
+    width: 100px !important;
+    height: 70px;
+    position: relative;
+    left: 20px;
+  }
+  .downloadcv{
+    position: relative;
+    left: -25px;
+    display: flex;
+    justify-content: center;
+  }
+  #contact{
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 520px) and (max-width: 600px) {
+  .home-img {
+    width: 100%;
+  }
+  .left {
+    position: absolute;
+    top: 0px;
+    /* left: 80px; */
+  }
+  .left h3 {
+    text-align: center;
+  }
+  .right {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    justify-content: space-between;
+  }
+  a {
+    color: rgb(22, 6, 14);
+    transition: 2s;
+    padding: 2px;
+  }
+  a:hover {
+    font-size: 20px;
+    color: rgb(4, 15, 15);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  #home h1 {
+    font-size: 23px;
+    text-decoration: dashed;
+    color: rgb(5, 33, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 30vh;
+    left: -100vh;
+    animation: mymove 5s infinite;
+    animation-delay: 2s;
+  }
+  #home h3 {
+    font-size: 30px;
+    color: rgb(15, 2, 26);
+    position: absolute;
+    top: 35vh;
+    left: 10vh;
+  }
+  #home p {
+    display: none;
+  }
+  #about p {
+    color: rgb(109, 145, 177);
+    position: relative;
+    top: 550px;
+    text-align: center;
+  }
+  #about .ed {
+    position: relative;
+    top: 600px;
+    left: 23vh;
+    color: aliceblue;
+  }
+  #about .pr {
+    position: relative;
+    top: 1055px;
+    left: 7vh;
+    color: aliceblue;
+  }
+  #about .cir {
+    position: relative;
+    top: 1520px;
+    left: -5vh;
+    color: aliceblue;
+  }
+
+  .base {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    align-items: center;
+    justify-content: center;
+  }
+  .cf {
+    position: relative;
+    top: 610px;
+    border: 2px solid whitesmoke;
+    width: 200px;
+    height: 370px;
+    box-shadow: 2px 9px 4px 3px white;
+  }
+  #skills h2 {
+    position: absolute;
+    top: 350vh;
+    color: rgb(247, 238, 238);
+    margin-left: 45%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 700px) {
+  .home-img {
+    width: 90%;
+  }
+  .left {
+    position: absolute;
+    top: 15px;
+    /* left: 80px; */
+  }
+  .left h3 {
+    text-align: center;
+  }
+  .right {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    justify-content: space-between;
+  }
+  a {
+    color: rgb(22, 6, 14);
+    transition: 2s;
+    padding: 20px;
+  }
+  a:hover {
+    font-size: 20px;
+    color: rgb(4, 15, 15);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  #home h1 {
+    font-size: 30px;
+    text-decoration: dashed;
+    color: rgb(5, 33, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 30vh;
+    left: -100vh;
+    animation: mymove 5s infinite;
+    animation-delay: 2s;
+  }
+  #home h3 {
+    font-size: 30px;
+    color: rgb(15, 3, 25);
+    position: absolute;
+    top: 35vh;
+    left: 10vh;
+  }
+  #home p {
+    display: none;
+  }
+  #about p {
+    color: rgb(109, 145, 177);
+    position: relative;
+    top: 550px;
+    text-align: center;
+  }
+  .base {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .hh {
+    display: flex;
+  }
+  #about .ed {
+    position: relative;
+    top: 605px;
+    left: 1vh;
+    color: aliceblue;
+  }
+  #about .pr {
+    position: relative;
+    top: 605px;
+    left: 20vh;
+    color: aliceblue;
+  }
+  #about .cir {
+    position: relative;
+    top: 605px;
+    left: 40vh;
+    color: aliceblue;
+  }
+  #skill h2{ 
+    position: relative !important;
+    top: 100px;
+  }
+  .skillbox{
+    position: relative !important;
+    right: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .home-img {
+    width: 70%;
+  }
+  .left {
+    position: absolute;
+    top: 15px;
+    /* left: 80px; */
+  }
+  .left h3 {
+    text-align: center;
+  }
+  .right {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    justify-content: space-between;
+  }
+  a {
+    color: rgb(22, 6, 14);
+    transition: 2s;
+    padding: 20px;
+  }
+  a:hover {
+    font-size: 20px;
+    color: rgb(4, 15, 15);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  #home h1 {
+    font-size: 30px;
+    text-decoration: dashed;
+    color: rgb(5, 33, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 30vh;
+    left: -100vh;
+    animation: mymove 5s infinite;
+    animation-delay: 2s;
+  }
+  #home h3 {
+    font-size: 30px;
+    color: rgb(181, 240, 248);
+    position: absolute;
+    top: 35vh;
+    left: 10vh;
+  }
+  #about{
+    border: 2px solid #352c2e;
+    background-color: #352c2e;
+  }
+  #about p {
+    color: rgb(109, 145, 177);
+    position: relative;
+    top: 50px;
+    text-align: center;
+  }
+  .hh {
+    display: flex;
+  }
+  .cf {
+    position: relative;
+    top: 100px;
+    border: 2px solid whitesmoke;
+    width: 200px;
+    height: 370px;
+    box-shadow: 2px 9px 4px 3px white;
+  }
+  .base {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  #about .ed {
+    position: relative;
+    top: 70px;
+    left: 4vh;
+    color: aliceblue;
+  }
+  #about .pr {
+    position: relative;
+    top: 70px;
+    left: 25vh;
+    color: aliceblue;
+  }
+  #about .cir {
+    position: relative;
+    top: 70px;
+    left: 50vh;
+    color: aliceblue;
+  }
+  #skills h2 {
+    text-decoration: underline;
+    position: absolute;
+    top: 205vh;
+    color: rgb(247, 238, 238);
+    margin-left: 45%;
+  }
+  .skillbox{
+    position: relative;
+    top: 250px;
+    left: 13%;
+  }
+  .percent{
+    width: 200px;
+  }
+  .pj{
+    width: 100px;
+  }
+  .ps{
+    width: 160px;
+  }
+  .pp{
+    width: 190px;
+  }
+  #resume h2 {
+    position: relative;
+    top: 40vh;
+    color: rgb(247, 238, 238);
+    margin-left: 45%;
+  }
+  #contact{
+    height: 90vh;
+  }
+  #contact h2 {
+    position: absolute;
+    top: 400vh;
+    color: rgb(247, 238, 238);
+    margin-left: 45%;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 3500px) {
+  .home-img {
+    width: 50%;
+  }
+  .left {
+    position: absolute;
+    top: 15px;
+    left: 80px;
+  }
+  .left h3 {
+    text-align: center;
+  }
+  .right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    justify-content: space-between;
+  }
+  a {
+    color: rgb(22, 6, 14);
+    transition: 2s;
+    padding: 25px;
+  }
+  a:hover {
+    font-size: 20px;
+    color: rgb(4, 15, 15);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  #home h1 {
+    font-size: 30px;
+    text-decoration: dashed;
+    color: rgb(201, 96, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 30vh;
+    left: -100vh;
+    animation: mymove 5s infinite;
+    animation-delay: 2s;
+  }
+  #home h3 {
+    font-size: 30px;
+    color: rgb(132, 11, 231);
+    position: absolute;
+    top: 35vh;
+    left: 10vh;
+  }
+  .home p {
+    max-width: 50%;
+    border-bottom: 1px dotted;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: red;
+    float: left;
+    width: 50px;
+  }
+  #about p {
+    color: rgb(2, 11, 19);
+    position: relative;
+    top: 60px;
+    margin: 55px;
+    text-align: center;
+  }
+  .hh {
+    display: flex;
+  }
+  .base {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  #about .ed {
+    position: relative;
+    top: 60px;
+    left: 27vh;
+    color: aliceblue;
+  }
+  #about .pr {
+    position: relative;
+    top: 60px;
+    left: 61vh;
+    color: aliceblue;
+  }
+  #about .cir {
+    position: relative;
+    top: 60px;
+    left: 97vh;
+    color: aliceblue;
+  }
+  .skillbox{
+    padding:0;
+    margin: 0;
+    position: relative;
+    left: 25vh;
+  }
+  .percent{
+    width: 200px;
+  }
+  .pj{
+    width: 100px;
+  }
+  .ps{
+    width: 160px;
+  }
+  .pp{
+    width: 190px;
+  }
+  #contact{
+    height: 90vh;
+  }
+}
