@@ -39,7 +39,7 @@ a {
   padding: 25px;
 }
 #home {
-  background-image: url(../assets/bgimg.jpg);
+  background-image: url(./bgimg.jpg);
   position: sticky;
   overflow: scroll;
   background-size: fixed;
