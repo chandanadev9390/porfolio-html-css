@@ -465,10 +465,10 @@ input[type=button]{
     flex-direction: column;
   }
   .myresume iframe{
-    width: 160px !important;
-    height: 90px;
+    width: 200px !important;
+    height: 100px;
     position: relative;
-    left: 20px;
+    left: 10px;
   }
   .downloadcv{
     position: relative;
