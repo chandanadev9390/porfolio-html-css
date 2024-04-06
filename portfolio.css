@@ -465,8 +465,8 @@ input[type=button]{
     flex-direction: column;
   }
   .myresume iframe{
-    width: 100px !important;
-    height: 70px;
+    width: 160px !important;
+    height: 90px;
     position: relative;
     left: 20px;
   }
